@@ -1,0 +1,145 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+#page_container {
+    width: 1700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0px, 0px, 48px, 16px rgba(0, 0, 0, 0.175)
+}
+
+header {
+    background-color: #ffffff;
+    padding-bottom: 149px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    padding: 15px 0 20px 40px;
+}
+
+#logo img {
+    width: 110px;
+}
+
+#page_title {
+    width: 1000px;
+    float: left;
+    text-align: center;
+    padding-left: 120px;
+    padding-top: 25px;
+}
+
+#page_title h1 {
+    font-size: 40pt;
+}
+
+nav {
+	clear: both;
+    text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(3, 151, 170)
+}
+
+nav li {
+	display: inline-block;
+	
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 30px;
+	font-size: 20px;
+	color: #c6d7d8;
+}
+
+nav li a:hover {
+	background-color: rgb(198, 12, 48);
+}
+ 
+#intro_block {
+    background: black url(resources/kahui-ako-round-logo-2-3\ \(1\).jpg) no-repeat center;
+     background-size: cover;
+     padding-bottom: 450px;
+     padding-top: 450px;
+}
+
+.button{
+    color: black;
+    font-size: 15pt;
+    margin: 30px 5px;
+    padding: 15px 50px;
+    border: 2px solid  #000000 ;
+}
+
+#content{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.175);
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 1100px;
+    margin-left: 290px;
+    color: #ffffff;
+    border: 1px solid  #000000;
+}
+
+footer {
+    background-color: rgba(3, 86, 66, 0.25);
+    clear: both;
+    overflow: hidden;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(198, 12, 48);
+}
+
+#links {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#links h4 {
+    padding-left: 40px;
+}
+
+#menu h4 {
+    padding-left: 39px;
+}
+
+#menu {
+    width: 450px;
+    float: left;
+    padding-left: 100px;
+}
+
+#socials {
+    float: left;
+    width: 450px;
+    padding-left: 100px;
+}
+
+#socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#socials li {
+    padding: 0 12px 0 0;
+    display: inline;
+}
