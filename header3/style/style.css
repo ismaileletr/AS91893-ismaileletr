@@ -34,11 +34,9 @@ body {
    
    #logo { 
    
-    width: 200px; 
-   
-    float: left; 
-   
-    padding: 15px 0 20px 40px; 
+    width: 350px; 
+    float: left 10; 
+    margin: 100px left;
    
      
    
@@ -46,9 +44,25 @@ body {
    
    #logo img { 
    
-    width: 110px; 
+    width: 150px;
+   
+   }
+
+   #logo2 img { 
+   
+    width: 350px;
+    float: left;
+    margin: 100px left;
+   
+   }
+
+   #logo4 img { 
+   
+    width: 150px;
+    float: left;
    
    } 
+   
    
    #page_title { 
    
@@ -84,7 +98,7 @@ body {
    
     overflow: hidden; 
    
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(3, 151, 170); 
    
    } 
    
@@ -108,7 +122,7 @@ body {
    
     padding: 14px 30px; 
    
-    font-size: 20px; 
+    font-size: 30px; 
    
     color: #ffffff; 
    
@@ -180,7 +194,8 @@ body {
    
     clear: both; 
    
-    overflow: hidden; 
+    overflow: hidden;
+    font-size: 30px;
    
    } 
    
@@ -194,7 +209,7 @@ body {
    
     text-decoration: none; 
    
-    color: rgb(198, 12, 48); 
+    color: rgb(0, 0, 0); 
    
    } 
    
